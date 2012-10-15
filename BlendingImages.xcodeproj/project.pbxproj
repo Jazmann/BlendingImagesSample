@@ -7,116 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09D7C44D1626E3DD00D82343 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D7C44C1626E3DD00D82343 /* UIKit.framework */; };
-		09D7C44F1626E3DD00D82343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D7C44E1626E3DD00D82343 /* Foundation.framework */; };
-		09D7C4511626E3DD00D82343 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D7C4501626E3DD00D82343 /* CoreGraphics.framework */; };
-		09D7C4571626E3DD00D82343 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09D7C4551626E3DD00D82343 /* InfoPlist.strings */; };
-		09D7C4591626E3DD00D82343 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D7C4581626E3DD00D82343 /* main.m */; };
-		09D7C45D1626E3DD00D82343 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D7C45C1626E3DD00D82343 /* AppDelegate.m */; };
-		09D7C45F1626E3DD00D82343 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D7C45E1626E3DD00D82343 /* Default.png */; };
-		09D7C4611626E3DD00D82343 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D7C4601626E3DD00D82343 /* Default@2x.png */; };
-		09D7C4631626E3DD00D82343 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D7C4621626E3DD00D82343 /* Default-568h@2x.png */; };
-		09D7C4661626E3DD00D82343 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D7C4641626E3DD00D82343 /* MainStoryboard.storyboard */; };
-		09D7C4691626E3DD00D82343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D7C4681626E3DD00D82343 /* ViewController.m */; };
+		0962C3DD162CA50C00A35AB0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0962C3DC162CA50C00A35AB0 /* opencv2.framework */; };
+		0962C3E0162CA52600A35AB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */; };
+		B51963E0159CCBC500D96FF2 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B51963DF159CCBC500D96FF2 /* UIImageCVMatConverter.mm */; };
+		B555107D1589962B00452381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B555107C1589962B00452381 /* UIKit.framework */; };
+		B555107F1589962B00452381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B555107E1589962B00452381 /* Foundation.framework */; };
+		B55510811589962B00452381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55510801589962B00452381 /* CoreGraphics.framework */; };
+		B55510871589962B00452381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B55510851589962B00452381 /* InfoPlist.strings */; };
+		B55510891589962B00452381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B55510881589962B00452381 /* main.m */; };
+		B555108D1589962B00452381 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B555108C1589962B00452381 /* AppDelegate.m */; };
+		B55510901589962B00452381 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B555108E1589962B00452381 /* MainStoryboard.storyboard */; };
+		B55510931589962B00452381 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B55510921589962B00452381 /* ViewController.mm */; };
+		B555109B1589973600452381 /* ImagePickerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B555109A1589973600452381 /* ImagePickerViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09D7C4481626E3DD00D82343 /* BlendingImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		09D7C44C1626E3DD00D82343 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		09D7C44E1626E3DD00D82343 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		09D7C4501626E3DD00D82343 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		09D7C4541626E3DD00D82343 /* BlendingImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlendingImages-Info.plist"; sourceTree = "<group>"; };
-		09D7C4561626E3DD00D82343 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		09D7C4581626E3DD00D82343 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09D7C45A1626E3DD00D82343 /* BlendingImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlendingImages-Prefix.pch"; sourceTree = "<group>"; };
-		09D7C45B1626E3DD00D82343 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		09D7C45C1626E3DD00D82343 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		09D7C45E1626E3DD00D82343 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		09D7C4601626E3DD00D82343 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		09D7C4621626E3DD00D82343 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		09D7C4651626E3DD00D82343 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		09D7C4671626E3DD00D82343 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		09D7C4681626E3DD00D82343 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0962C3DC162CA50C00A35AB0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
+		0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B51963DE159CCBC500D96FF2 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = ../../shared/UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		B51963DF159CCBC500D96FF2 /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = UIImageCVMatConverter.mm; path = ../../shared/UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		B55510781589962B00452381 /* BlendingImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendingImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B555107C1589962B00452381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B555107E1589962B00452381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B55510801589962B00452381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B55510841589962B00452381 /* BlendingImages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlendingImages-Info.plist"; sourceTree = "<group>"; };
+		B55510861589962B00452381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B55510881589962B00452381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B555108A1589962B00452381 /* BlendingImages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlendingImages-Prefix.pch"; sourceTree = "<group>"; };
+		B555108B1589962B00452381 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B555108C1589962B00452381 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B555108F1589962B00452381 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B55510911589962B00452381 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B55510921589962B00452381 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B55510991589973600452381 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		B555109A1589973600452381 /* ImagePickerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImagePickerViewController.mm; sourceTree = "<group>"; };
+		B555109F15899EC500452381 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../ocv.build/ios/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09D7C4451626E3DD00D82343 /* Frameworks */ = {
+		B55510751589962B00452381 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D7C44D1626E3DD00D82343 /* UIKit.framework in Frameworks */,
-				09D7C44F1626E3DD00D82343 /* Foundation.framework in Frameworks */,
-				09D7C4511626E3DD00D82343 /* CoreGraphics.framework in Frameworks */,
+				0962C3DD162CA50C00A35AB0 /* opencv2.framework in Frameworks */,
+				B555107D1589962B00452381 /* UIKit.framework in Frameworks */,
+				B555107F1589962B00452381 /* Foundation.framework in Frameworks */,
+				B55510811589962B00452381 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09D7C43D1626E3DD00D82343 = {
+		B555106D1589962B00452381 = {
 			isa = PBXGroup;
 			children = (
-				09D7C4521626E3DD00D82343 /* BlendingImages */,
-				09D7C44B1626E3DD00D82343 /* Frameworks */,
-				09D7C4491626E3DD00D82343 /* Products */,
+				0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */,
+				0962C3DC162CA50C00A35AB0 /* opencv2.framework */,
+				B55510821589962B00452381 /* BlendingImages */,
+				B555107B1589962B00452381 /* Frameworks */,
+				B55510791589962B00452381 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		09D7C4491626E3DD00D82343 /* Products */ = {
+		B55510791589962B00452381 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09D7C4481626E3DD00D82343 /* BlendingImages.app */,
+				B55510781589962B00452381 /* BlendingImages.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09D7C44B1626E3DD00D82343 /* Frameworks */ = {
+		B555107B1589962B00452381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09D7C44C1626E3DD00D82343 /* UIKit.framework */,
-				09D7C44E1626E3DD00D82343 /* Foundation.framework */,
-				09D7C4501626E3DD00D82343 /* CoreGraphics.framework */,
+				B555109F15899EC500452381 /* opencv2.framework */,
+				B555107C1589962B00452381 /* UIKit.framework */,
+				B555107E1589962B00452381 /* Foundation.framework */,
+				B55510801589962B00452381 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		09D7C4521626E3DD00D82343 /* BlendingImages */ = {
+		B55510821589962B00452381 /* BlendingImages */ = {
 			isa = PBXGroup;
 			children = (
-				09D7C45B1626E3DD00D82343 /* AppDelegate.h */,
-				09D7C45C1626E3DD00D82343 /* AppDelegate.m */,
-				09D7C4641626E3DD00D82343 /* MainStoryboard.storyboard */,
-				09D7C4671626E3DD00D82343 /* ViewController.h */,
-				09D7C4681626E3DD00D82343 /* ViewController.m */,
-				09D7C4531626E3DD00D82343 /* Supporting Files */,
+				B555108B1589962B00452381 /* AppDelegate.h */,
+				B555108C1589962B00452381 /* AppDelegate.m */,
+				B5E1F87C158EDF6E00F78897 /* ViewControllers */,
+				B55510831589962B00452381 /* Supporting Files */,
 			);
 			path = BlendingImages;
 			sourceTree = "<group>";
 		};
-		09D7C4531626E3DD00D82343 /* Supporting Files */ = {
+		B55510831589962B00452381 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				09D7C4541626E3DD00D82343 /* BlendingImages-Info.plist */,
-				09D7C4551626E3DD00D82343 /* InfoPlist.strings */,
-				09D7C4581626E3DD00D82343 /* main.m */,
-				09D7C45A1626E3DD00D82343 /* BlendingImages-Prefix.pch */,
-				09D7C45E1626E3DD00D82343 /* Default.png */,
-				09D7C4601626E3DD00D82343 /* Default@2x.png */,
-				09D7C4621626E3DD00D82343 /* Default-568h@2x.png */,
+				B55510841589962B00452381 /* BlendingImages-Info.plist */,
+				B55510851589962B00452381 /* InfoPlist.strings */,
+				B555108E1589962B00452381 /* MainStoryboard.storyboard */,
+				B51963DE159CCBC500D96FF2 /* UIImageCVMatConverter.h */,
+				B51963DF159CCBC500D96FF2 /* UIImageCVMatConverter.mm */,
+				B55510881589962B00452381 /* main.m */,
+				B555108A1589962B00452381 /* BlendingImages-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5E1F87C158EDF6E00F78897 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B55510991589973600452381 /* ImagePickerViewController.h */,
+				B555109A1589973600452381 /* ImagePickerViewController.mm */,
+				B55510911589962B00452381 /* ViewController.h */,
+				B55510921589962B00452381 /* ViewController.mm */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09D7C4471626E3DD00D82343 /* BlendingImages */ = {
+		B55510771589962B00452381 /* BlendingImages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09D7C46C1626E3DD00D82343 /* Build configuration list for PBXNativeTarget "BlendingImages" */;
+			buildConfigurationList = B55510961589962B00452381 /* Build configuration list for PBXNativeTarget "BlendingImages" */;
 			buildPhases = (
-				09D7C4441626E3DD00D82343 /* Sources */,
-				09D7C4451626E3DD00D82343 /* Frameworks */,
-				09D7C4461626E3DD00D82343 /* Resources */,
+				B55510741589962B00452381 /* Sources */,
+				B55510751589962B00452381 /* Frameworks */,
+				B55510761589962B00452381 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -124,76 +142,76 @@
 			);
 			name = BlendingImages;
 			productName = BlendingImages;
-			productReference = 09D7C4481626E3DD00D82343 /* BlendingImages.app */;
+			productReference = B55510781589962B00452381 /* BlendingImages.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		09D7C43F1626E3DD00D82343 /* Project object */ = {
+		B555106F1589962B00452381 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "Jasper Shemilt";
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "University of Houston - Main Campus";
 			};
-			buildConfigurationList = 09D7C4421626E3DD00D82343 /* Build configuration list for PBXProject "BlendingImages" */;
+			buildConfigurationList = B55510721589962B00452381 /* Build configuration list for PBXProject "BlendingImages" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 09D7C43D1626E3DD00D82343;
-			productRefGroup = 09D7C4491626E3DD00D82343 /* Products */;
+			mainGroup = B555106D1589962B00452381;
+			productRefGroup = B55510791589962B00452381 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09D7C4471626E3DD00D82343 /* BlendingImages */,
+				B55510771589962B00452381 /* BlendingImages */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09D7C4461626E3DD00D82343 /* Resources */ = {
+		B55510761589962B00452381 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D7C4571626E3DD00D82343 /* InfoPlist.strings in Resources */,
-				09D7C45F1626E3DD00D82343 /* Default.png in Resources */,
-				09D7C4611626E3DD00D82343 /* Default@2x.png in Resources */,
-				09D7C4631626E3DD00D82343 /* Default-568h@2x.png in Resources */,
-				09D7C4661626E3DD00D82343 /* MainStoryboard.storyboard in Resources */,
+				B55510871589962B00452381 /* InfoPlist.strings in Resources */,
+				B55510901589962B00452381 /* MainStoryboard.storyboard in Resources */,
+				0962C3E0162CA52600A35AB0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09D7C4441626E3DD00D82343 /* Sources */ = {
+		B55510741589962B00452381 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D7C4591626E3DD00D82343 /* main.m in Sources */,
-				09D7C45D1626E3DD00D82343 /* AppDelegate.m in Sources */,
-				09D7C4691626E3DD00D82343 /* ViewController.m in Sources */,
+				B55510891589962B00452381 /* main.m in Sources */,
+				B555108D1589962B00452381 /* AppDelegate.m in Sources */,
+				B55510931589962B00452381 /* ViewController.mm in Sources */,
+				B555109B1589973600452381 /* ImagePickerViewController.mm in Sources */,
+				B51963E0159CCBC500D96FF2 /* UIImageCVMatConverter.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		09D7C4551626E3DD00D82343 /* InfoPlist.strings */ = {
+		B55510851589962B00452381 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				09D7C4561626E3DD00D82343 /* en */,
+				B55510861589962B00452381 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		09D7C4641626E3DD00D82343 /* MainStoryboard.storyboard */ = {
+		B555108E1589962B00452381 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				09D7C4651626E3DD00D82343 /* en */,
+				B555108F1589962B00452381 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -201,15 +219,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		09D7C46A1626E3DD00D82343 /* Debug */ = {
+		B55510941589962B00452381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -220,55 +235,65 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		09D7C46B1626E3DD00D82343 /* Release */ = {
+		B55510951589962B00452381 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		09D7C46D1626E3DD00D82343 /* Debug */ = {
+		B55510971589962B00452381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = ../../../openCV_Dev/ios/;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlendingImages/BlendingImages-Prefix.pch";
 				INFOPLIST_FILE = "BlendingImages/BlendingImages-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5B631A41-960B-4691-9BF8-4A58EC975887";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B631A41-960B-4691-9BF8-4A58EC975887";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		09D7C46E1626E3DD00D82343 /* Release */ = {
+		B55510981589962B00452381 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = ../../../openCV_Dev/ios/;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlendingImages/BlendingImages-Prefix.pch";
 				INFOPLIST_FILE = "BlendingImages/BlendingImages-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5B631A41-960B-4691-9BF8-4A58EC975887";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B631A41-960B-4691-9BF8-4A58EC975887";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -276,24 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09D7C4421626E3DD00D82343 /* Build configuration list for PBXProject "BlendingImages" */ = {
+		B55510721589962B00452381 /* Build configuration list for PBXProject "BlendingImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D7C46A1626E3DD00D82343 /* Debug */,
-				09D7C46B1626E3DD00D82343 /* Release */,
+				B55510941589962B00452381 /* Debug */,
+				B55510951589962B00452381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09D7C46C1626E3DD00D82343 /* Build configuration list for PBXNativeTarget "BlendingImages" */ = {
+		B55510961589962B00452381 /* Build configuration list for PBXNativeTarget "BlendingImages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D7C46D1626E3DD00D82343 /* Debug */,
-				09D7C46E1626E3DD00D82343 /* Release */,
+				B55510971589962B00452381 /* Debug */,
+				B55510981589962B00452381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 09D7C43F1626E3DD00D82343 /* Project object */;
+	rootObject = B555106F1589962B00452381 /* Project object */;
 }
