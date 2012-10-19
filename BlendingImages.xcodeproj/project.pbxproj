@@ -41,7 +41,6 @@
 		B55510921589962B00452381 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		B55510991589973600452381 /* ImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
 		B555109A1589973600452381 /* ImagePickerViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImagePickerViewController.mm; sourceTree = "<group>"; };
-		B555109F15899EC500452381 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../ocv.build/ios/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */,
-				0962C3DC162CA50C00A35AB0 /* opencv2.framework */,
 				B55510821589962B00452381 /* BlendingImages */,
 				B555107B1589962B00452381 /* Frameworks */,
 				B55510791589962B00452381 /* Products */,
@@ -81,7 +79,7 @@
 		B555107B1589962B00452381 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B555109F15899EC500452381 /* opencv2.framework */,
+				0962C3DC162CA50C00A35AB0 /* opencv2.framework */,
 				B555107C1589962B00452381 /* UIKit.framework */,
 				B555107E1589962B00452381 /* Foundation.framework */,
 				B55510801589962B00452381 /* CoreGraphics.framework */,
