@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0940ED7E167B7F3B00CA303C /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED7B167B7F3B00CA303C /* libc++.1.dylib */; };
+		0940ED7F167B7F3B00CA303C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED7C167B7F3B00CA303C /* libc++.dylib */; };
+		0940ED80167B7F3B00CA303C /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940ED7D167B7F3B00CA303C /* libc++abi.dylib */; };
 		0962C3DD162CA50C00A35AB0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0962C3DC162CA50C00A35AB0 /* opencv2.framework */; };
 		0962C3E0162CA52600A35AB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */; };
 		B51963E0159CCBC500D96FF2 /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B51963DF159CCBC500D96FF2 /* UIImageCVMatConverter.mm */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0940ED7B167B7F3B00CA303C /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		0940ED7C167B7F3B00CA303C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0940ED7D167B7F3B00CA303C /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		0962C3DC162CA50C00A35AB0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
 		0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B51963DE159CCBC500D96FF2 /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIImageCVMatConverter.h; path = ../../shared/UIImageCVMatConverter.h; sourceTree = "<group>"; };
@@ -48,6 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940ED7E167B7F3B00CA303C /* libc++.1.dylib in Frameworks */,
+				0940ED7F167B7F3B00CA303C /* libc++.dylib in Frameworks */,
+				0940ED80167B7F3B00CA303C /* libc++abi.dylib in Frameworks */,
 				0962C3DD162CA50C00A35AB0 /* opencv2.framework in Frameworks */,
 				B555107D1589962B00452381 /* UIKit.framework in Frameworks */,
 				B555107F1589962B00452381 /* Foundation.framework in Frameworks */,
@@ -61,6 +70,9 @@
 		B555106D1589962B00452381 = {
 			isa = PBXGroup;
 			children = (
+				0940ED7B167B7F3B00CA303C /* libc++.1.dylib */,
+				0940ED7C167B7F3B00CA303C /* libc++.dylib */,
+				0940ED7D167B7F3B00CA303C /* libc++abi.dylib */,
 				0962C3DF162CA52600A35AB0 /* Default-568h@2x.png */,
 				B55510821589962B00452381 /* BlendingImages */,
 				B555107B1589962B00452381 /* Frameworks */,
@@ -265,16 +277,16 @@
 		B55510971589962B00452381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vic Gandikota (7NF663737M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naef Al-Saud (D5UN3UM33M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naef Al-Saud (D5UN3UM33M)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = ../../../openCV_Dev/ios/;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlendingImages/BlendingImages-Prefix.pch";
 				INFOPLIST_FILE = "BlendingImages/BlendingImages-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5B631A41-960B-4691-9BF8-4A58EC975887";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B631A41-960B-4691-9BF8-4A58EC975887";
+				PROVISIONING_PROFILE = "5F8B8DB0-61D0-4922-B60C-B57030B42019";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C47BE1F-6FD6-4F63-BB8C-C6EA0A462F7A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -282,16 +294,16 @@
 		B55510981589962B00452381 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Vic Gandikota (7NF663737M)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vic Gandikota (7NF663737M)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Naef Al-Saud (D5UN3UM33M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Naef Al-Saud (D5UN3UM33M)";
 				FRAMEWORK_SEARCH_PATHS = "";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = ../../../openCV_Dev/ios/;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlendingImages/BlendingImages-Prefix.pch";
 				INFOPLIST_FILE = "BlendingImages/BlendingImages-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5B631A41-960B-4691-9BF8-4A58EC975887";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B631A41-960B-4691-9BF8-4A58EC975887";
+				PROVISIONING_PROFILE = "5F8B8DB0-61D0-4922-B60C-B57030B42019";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6C47BE1F-6FD6-4F63-BB8C-C6EA0A462F7A";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
